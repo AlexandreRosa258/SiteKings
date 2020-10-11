@@ -1,0 +1,15 @@
+.card-title,span{
+    font-family: cursive;
+    color: black;
+    size: 20pt;
+}
+
+table, th, td {
+    border: 2px solid black;
+
+  }
+
+  .btn{
+     margin: auto;
+     margin-left: 45%;
+  }

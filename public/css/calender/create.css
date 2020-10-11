@@ -1,0 +1,21 @@
+.card-title{
+  text-align: center;
+  color: black;
+
+}
+
+img{
+  width: 40px;
+  height: 40px;
+}
+
+.browser-default{
+  margin: auto;
+  margin-left: 50%;
+}
+
+label{
+  margin: auto;
+  margin-left: 50%;
+
+}

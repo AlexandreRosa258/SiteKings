@@ -1,0 +1,58 @@
+.titulo1{
+  text-align: center;
+  font-family: cursive;
+  font-size: 20pt;
+  background-color: #02579B;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px black;
+ }
+
+
+img{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  margin-left: 10%;
+}
+
+.card-panel{
+  margin: auto;
+  margin-left: 65%;
+  margin-top: 30%;
+  width: 250px;
+  height: 600px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+
+.video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  padding-top: 10px;
+ }
+
+#video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:800px;
+  border-radius: 20px;
+}
+
+.card-content{
+  margin-left: 10px;
+}
+
+.teacher{
+  width: 300px;
+  height:300px;
+
+  margin-top: 20px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

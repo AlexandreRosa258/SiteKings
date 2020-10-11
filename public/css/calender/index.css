@@ -1,0 +1,18 @@
+.btn{
+  margin: auto;
+  margin-left: 45%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card-panel{
+  box-shadow: 10px 10px 10px 10px;
+}
+
+
+.truncate{
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
