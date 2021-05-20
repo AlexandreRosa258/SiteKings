@@ -26,7 +26,8 @@
                     </div>
                     <div class="card-action">
 
-                        <form class="" action="{{route('proof->store')}}" method="post">
+                        <form class="" action="{{route('proof.store')}}" method="post">
+                          @csrf
                             @foreach ($proofs as $proof)
 
                             <p>{{$proof->test->question}}</p>

@@ -120,8 +120,6 @@ class TestController extends Controller
 
               $proof->save();
 
-          }else{
-            return redirect()->with('danger', 'The dangermessage!');
           }
 
           }

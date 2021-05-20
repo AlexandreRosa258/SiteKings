@@ -12,20 +12,23 @@
 </head>
 
 <body>
+<div class="container">
   <div class="row">
     <div class="col s12">
-      <div class="col s6">
-        <a class="btn blue" href="{{route('calender.create')}}"><i class="material-icons left">add</i>Register</a>
+      <div class="col s5">
+        <a class="btn blue dark-4" href="{{route('calender.create')}}"><i class="material-icons left">add</i>Register</a>
       </div>
       <div class="col s5">
-        <a class="btn red" href="{{ URL::to('/calender/pdf') }}"><i class="material-icons right">picture_as_pdf
-        </i>Export Pdf</a>
+        <a class="btn red" href="{{ URL::to('/calender/pdf') }}"><i class="material-icons left">picture_as_pdf
+        </i>Export</a>
       </div>
     </div>
   </div>
 
+</div>
 
     <div class="container">
+
         <div class="row">
             <div class="col s12">
                 <div class="card-panel">
@@ -40,7 +43,7 @@
                             @foreach ($calenders as $calender)
                             <tr>
                                 <td class="center">{{$calender->calender}}</td>
-                                <td class="center truncate">{{$calender->description}}</td>
+                                <td class="center">{{$calender->description}}</td>
                                 <td>
                                   <div class="row">
                                     <div class="col s12 ">

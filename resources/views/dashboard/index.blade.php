@@ -20,38 +20,38 @@
         <div class="col s12">
 
           <div class="col s4">
-            <div class="card-panel">
+            <div class="card-panel center">
               <a href="#"><img class="tooltipped icons" data-position="bottom" data-tooltip="Classes" src="icons/classes.png"></a>
             </div>
           </div>
 
           <div class="col s4">
-            <div class="card-panel">
+            <div class="card-panel center">
               <a href="#"><img class="tooltipped icons" data-position="bottom" data-tooltip="Home-Work" src="icons/homework.png" ></a>
             </div>
           </div>
 
           <div class="col s4">
-            <div class="card-panel">
+            <div class="card-panel center">
               <a href="{{route('calender.index')}}"><img class="tooltipped icons" data-position="bottom" data-tooltip="Calender" src="icons/calendar.png" ></a>
             </div>
           </div>
 
 
           <div class="col s4">
-            <div class="card-panel">
+            <div class="card-panel center">
               <a href="{{route('photos.index')}}"><img class="tooltipped icons" data-position="bottom" data-tooltip="Picture" src="icons/picture.png" ></a>
             </div>
           </div>
 
           <div class="col s4">
-            <div class="card-panel">
+            <div class="card-panel center">
               <a href="#"><img class="tooltipped icons" data-position="bottom" data-tooltip="Activities" src="icons/activities.png" ></a>
             </div>
           </div>
 
           <div class="col s4">
-            <div class="card-panel">
+            <div class="card-panel center">
               <a href="{{route('question.index')}}"><img class="tooltipped icons" data-position="bottom" data-tooltip="Questions" src="icons/question.png" ></a>
             </div>
           </div>
@@ -64,7 +64,7 @@
    <div class="parallax"><img src="images/logo2.jpg"></div>
   </div> -->
 
-  <a  class="test btn tooltipped pulse red darken-2" data-position="left" data-tooltip="Level Test" href="{{route('proof.index')}}">Teste de Nível</a>
+  {{-- <a  class="test btn tooltipped pulse red darken-2" data-position="left" data-tooltip="Level Test" href="{{route('proof.index')}}">Teste de Nível</a> --}}
 
 
 </body>

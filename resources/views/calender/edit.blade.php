@@ -15,10 +15,8 @@
       <form class="" action="{{route('calender.update',$calender->id)}}" method="post">
         @csrf
        @method('PUT')
-        <div class="card">
-          <div class="card-content white-text">
-            <span class="card-title">Grid Creation</span>
-          </div>
+       <div class="card">
+         <h3 class="center">Edit Calender</h3>
           <div class="card-action">
             <div class="row">
               <div class="col s12">
@@ -38,7 +36,7 @@
                   </div>
                 </div>
                 <div class="col s12">
-                  <button type="submit" class="btn btn-primary">Salvar</button>
+                  <button type="submit" class="btn light-blue darken-4"><i class="material-icons left">check</i>Register</button>
                 </div>
               </div>
             </div>

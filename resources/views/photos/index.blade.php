@@ -21,7 +21,7 @@
                         @foreach ($photos as $photo)
                         <br>
                         <p class="title center white-text blue darken-4">{{$photo->name}}</p>
-                        <img class="materialboxed" src="{{url('storage/photos/'.$photo->image)}}">
+                        <img class="materialboxed" src="{{asset('photosimg/'.$photo->image)}}">
                         <a href="{{route('photos.edit',$photo->id)}}" class=" btn blue darken-4"><i
                           class="material-icons">create</i></a>
                           <form class="" action="{{route('photos.destroy',$photo->id)}}" method="post">

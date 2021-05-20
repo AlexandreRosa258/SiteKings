@@ -33,7 +33,7 @@ class PhotoController extends Controller
         $photo = Photo::create(request()->all());
 
         $photoName = $photo->id.'_photo_'.$photo->name.'.'.request()->image->getClientOriginalExtension();
-        request()->image->storeAs('photos',$photoName);
+        request()->image->move('photosimg',$photoName);
 
         $photo->image = $photoName;
         $photo->save();
@@ -60,12 +60,10 @@ class PhotoController extends Controller
         'name'=> 'required'
       ]);
         $photo = Photo::find($id);
-
         $photoName = $photo->id.'_photo_'.$photo->name.'.'.request()->image->getClientOriginalExtension();
-        request()->image->storeAs('photos',$photoName);
+        request()->image->move('photosimg',$photoName);
 
         $photo->image = $photoName;
-        $photo->name = request()->get('name');
         $photo->save();
         return redirect()->route('photos.index');
     }

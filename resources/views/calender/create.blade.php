@@ -15,9 +15,7 @@
       <form class="" action="{{route('calender.store')}}" method="post">
         @csrf
         <div class="card">
-          <div class="card-content white-text">
-            <span class="card-title">Grid Creation</span>
-          </div>
+          <h3 class="center">Create Calender</h3>
           <div class="card-action">
             <div class="row">
               <div class="col s12">
@@ -37,7 +35,7 @@
                   </div>
                 </div>
                 <div class="col s12">
-                  <button type="submit" class="btn btn-primary"><i class="material-icons left">check</i>Salvar</button>
+                  <button type="submit" class="btn light-blue darken-4"><i class="material-icons left">check</i>Register</button>
                 </div>
               </div>
             </div>

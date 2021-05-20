@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="/css/test/create.css">
+    <link rel="stylesheet" href="/css/photo/form.css">
 </head>
 <body>
 
@@ -19,7 +19,7 @@
       </div>
       <img src="images/{{ Session::get('image') }}">
       @endif
-{{-- 
+{{--
       @if (count($errors) > 0)
         <div class="alert alert-danger">
           <strong>Whoops!</strong> There were some problems with your input.
@@ -36,7 +36,7 @@
     <div class="col s12">
       <div class="card">
         <div class="card-content white-text">
-          <span class="card-title"><h2>Create Gallery Photo</h2></span>
+          <span class="card-title"><h2>Edit Gallery Photo</h2></span>
         </div>
         <div class="card-action">
           <form action="{{ route('photos.update',$photo->id) }}" method="POST" enctype="multipart/form-data">
@@ -56,6 +56,7 @@
                </div>
                <div class="file-path-wrapper">
                  <input class="file-path validate" name="image" type="text" value="{{$photo->image}}">
+                   <img class="materialboxed" src="{{asset('photosimg/'.$photo->image)}}">
                </div>
 
              </div>

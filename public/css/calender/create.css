@@ -1,17 +1,15 @@
-.card-title{
-  text-align: center;
-  color: black;
-
+h3{
+    font-family: cursive;
+    text-transform: uppercase;
 }
 
 img{
   width: 40px;
   height: 40px;
 }
+.card{
+  box-shadow: 10px 10px 10px;
 
-.browser-default{
-  margin: auto;
-  margin-left: 50%;
 }
 
 label{

@@ -80,6 +80,9 @@
                     <li class="nav-item">
                         <a href="{{route('student.index')}}"><i class="material-icons right">school</i>Students</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="{{route('proof.index')}}"><i class="material-icons right">description</i>Test</a>
+                    </li>
 
                     @endguest
                 </ul>

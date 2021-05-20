@@ -21,6 +21,7 @@ class CreateUsersTable extends Migration
             $table->Integer('points');
             $table->Integer('admin')->default(0);
             $table->Integer('student')->default(0);
+            $table->Integer('point')->default(0);
             $table->rememberToken();
             $table->timestamp('email_verified_at')->nullable();
             $table->timestamps();
